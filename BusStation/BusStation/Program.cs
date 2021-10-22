@@ -6,8 +6,11 @@ namespace BusStation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Bus Station!");
-            Console.WriteLine("Bye Bus Station!");
+            var mainController = new MainController();
+            while (true)
+            {
+                mainController.Run();
+            }
         }
     }
 }
