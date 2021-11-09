@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusStation.Controller;
+using System;
 
 namespace BusStation
 {
@@ -6,11 +7,9 @@ namespace BusStation
     {
         static void Main(string[] args)
         {
-            var mainController = new MainController();
-            while (true)
-            {
-                mainController.Run();
-            }
+            var menuController = new MainMenuController();
+            menuController.Run();
+            menuController.Stop();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace BusStation
+namespace BusStation.View
 {
     public class InputComponent
     {
